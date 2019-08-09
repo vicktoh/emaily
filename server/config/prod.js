@@ -4,5 +4,6 @@ module.exports = {
     mongoURI: process.env.MONGO_URI,
     cookieEncKey: process.env.COOKIE_ENC_KEY,
     payStackPubKey: process.env.PAYSTACK_PUB_KEY,
-    payStackSecKey: process.env.PAYSTACK_SEC_KEY
+    payStackSecKey: process.env.PAYSTACK_SEC_KEY,
+    googleCallbackUrl: '/auth/google/callback'
 };

@@ -5,5 +5,7 @@ module.exports = {
     cookieEncKey: process.env.COOKIE_ENC_KEY,
     payStackPubKey: process.env.PAYSTACK_PUB_KEY,
     payStackSecKey: process.env.PAYSTACK_SEC_KEY,
-    googleCallbackUrl: '/auth/google/callback'
-};
+    googleCallbackUrl: '/auth/google/callback',
+    sendGridKey: process.env.SEND_GRID_KEY,
+    redirectDomain: process.env.REDIRECT_DOMAIN
+}; 
